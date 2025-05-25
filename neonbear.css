@@ -1,0 +1,29 @@
+body {
+
+    background-color:navy;
+    color: white;
+    text-align: center;
+    font-family:Arial, sans-serif;
+
+}
+
+.neon-text {
+    font-size: 2rem;
+    color: #0ff; /*Neon cyan*/
+    text-shadow: 0 0 1-px #0ff, 0 0 20px #0ff, 0 0 40px #0ff;
+}
+
+#bear {
+    width: 300 px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#bear:hover {
+    transform: scale(1.1) rotateY(10deg);
+    filter: drop-shadow(0 0 10px #ff0); /*Neon yellow*/
+}
+
+#message {
+    font-size: 1.5rem;
+    color: #f0f; /* Neoon pink */
+}
